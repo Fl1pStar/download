@@ -1,213 +1,120 @@
 <!DOCTYPE html>
-<!-- язык -->
 <html lang="ru">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="robots" content="none" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- название сайта -->
-  <title>Cyberpunk</title>
+  <title>Flip Star</title>
+
+  <meta name="theme-color" content="#000000">
+
+  <meta name="description" content="FlipStar Mods for Radmir and Hassel Online">
+  <!-- <meta name="robots" content="index, follow"> -->
+  <meta name="keywords" content="FlipStar">
+
+  <meta name="application-name" content="FlipStar">
+  <meta property="og:url" content="https://fl1pstar.github.io/FlipStar/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FlipStar">
+  <meta property="og:description" content="FlipStar Mods for Radmir and Hassel Online">
+  <meta property="og:image" content="https://fl1pstar.github.io/FlipStar/assets/images/icon/favicon-120.png">
+  <meta property="og:site_name" content="FlipStar">
+  <!-- icon -->
   <link type="image/x-icon" rel="shortcut icon" href="assets/images/icon/favicon.ico">
-  <!-- подключаем стили -->
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/app.css">
-  <!-- подключаем JS -->
+  <link type="image/png" sizes="16x16" rel="icon" href="assets/images/icon/favicon.png">
+  <link type="image/png" sizes="32x32" rel="icon" href="assets/images/icon/favicon-32.png">
+  <link type="image/png" sizes="96x96" rel="icon" href="assets/images/icon/favicon-96.png">
+  <link type="image/png" sizes="120x120" rel="icon" href="assets/images/icon/favicon-120.png">
+  <!-- fonts -->
+  <link rel="preload" href="assets/fonts/source-sans-pro-400.woff2" as="font" crossorigin>
+  <link rel="preload" href="assets/fonts/source-sans-pro-600.woff2" as="font" crossorigin>
+  <link rel="preload" href="assets/fonts/source-sans-pro-700.woff2" as="font" crossorigin>
+  <!-- css  -->
+  <link rel="stylesheet" href="assets/css/vendor.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- js -->
+  <script defer src="assets/js/vendor.js"></script>
   <script defer src="assets/js/app.js"></script>
 </head>
 
 <body>
   <header class="header">
-    <div class="header__container container">
-      <p class="logo"></p>
-        <div class="element-animation-logo1">
-        <a class="link" target="_blank" href="https://www.cyberpunk.net">
-          <img class="header__logo img" src="assets/images/header/logo.svg" alt="логотип">
-        </a>
-      </div>
-      <div class="header__burger" id="burger"></div>
-      <ul class="header__list list" id="burgerMenu">
-            <li class="header__item item">
-              <div class="element-animation-logo2">
-          <a class="link" target="_blank" href="https://www.youtube.com/user/CyberPunkGame">
-            <img class="item__icon img" src="assets/images/header/youtube.svg" alt="ссылка на ютуб">
-          </a>
-        </div>
-        </li>
-        <li class="header__item item">
-          <div class="element-animation-logo2">
-          <a class="link" target="_blank" href="https://vk.com/cyberpunkgame">
-            <img class="item__icon img" src="assets/images/header/vk.svg" alt="ссылка на ютуб">
-          </a>
-        </div>
-        </li>
-        <li class="header__item item">
-          <div class="element-animation-logo2">
-          <a class="link" target="_blank" href="https://www.facebook.com/CyberpunkGameRU">
-            <img class="item__icon img" src="assets/images/header/fb.svg" alt="ссылка на ютуб">
-          </a>
-        </div>
-        </li>
-        <li class="header__item item">
-          <div class="element-animation-logo2">
-          <a class="link" target="_blank" href="https://twitter.com/cyberpunkgame">
-            <img class="item__icon img" src="assets/images/header/twitter.svg" alt="ссылка на ютуб">
-          </a>
-        </div>
-        </li>
-        <li class="header__item item">
-          <div class="element-animation-logo2">
-          <a class="link" target="_blank" href="https://www.twitch.tv/cdprojektred">
-            <img class="item__icon img" src="assets/images/header/twich.svg" alt="ссылка на ютуб">
-          </a>
-        </div>
-        </li>
-        <li class="header__item item">
-          <div class="element-animation-logo2">
-          <a class="link" target="_blank" href="https://www.instagram.com/cyberpunkgame">
-            <img class="item__icon img" src="assets/images/header/inst.svg" alt="ссылка на ютуб">
-          </a>
-        </div>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="logo link" href="index.html">
+        <svg class="icon">
+          <use xlink:href="assets/images/sprite.svg#logo"></use>
+        </svg>
+      </a>
+      <nav class="nav">
+        <ul class="list">
+          <li class="item">
+            <a class="link" target="_blank" href="https://www.youtube.com/channel/UCCSbQaLe9eglMwhoMG6wksQ">
+              <svg class="icon">
+                <use xlink:href="assets/images/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" target="_blank" href="https://vk.com/flip_star_mods">
+              <svg class="icon">
+                <use xlink:href="assets/images/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" target="_blank" href="https://vm.tiktok.com/ZSeBpSu6D/">
+              <svg class="icon">
+                <use xlink:href="assets/images/sprite.svg#tiktok"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" target="_blank" href="https://t.me/flip_star">
+              <svg class="icon">
+                <use xlink:href="assets/images/sprite.svg#tg"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" target="_blank" href="Нету">
+              <svg class="icon">
+                <use xlink:href="assets/images/sprite.svg#discord"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
-
-  <section class="hero">
-    <h1 class="main-title">Cyberpunk</h1>
-
-    <div class="box">
-      <div class="hero__container container hero__container--2">
-        <div class="hero__text text hero__text--20">
-          <div class="element-animation-text">
-          <h2>Найт-Сити изменит тебя навсегда!</h2>
-        </div>
-        <div class="element-animation-1">
-          <p>
-            ● Cyberpunk 2077 — приключенческая ролевая игра, действие которой 
-            происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела 
-            ценятся выше всего. Вы играете за V, наёмника в поисках устройства, 
-            позволяющего обрести бессмертие. Вы сможете менять киберимпланты, 
-            навыки и стиль игры своего персонажа, исследуя открытый мир, где ваши 
-            поступки влияют на ход сюжета и всё, что вас окружает.
-          </p>  
-        </div>
-        <div class="element-animation-text">
-          <h2>Поселитесь в городе будущего</h2>
-        </div>
-        <div class="element-animation-1">
-          <p>
-            ● В Найт-Сити всегда есть чем заняться, куда сходить и с кем поговорить. <br>
-            ● Живите в ритме фантастического города: выбирайтесь в заброшенные районы, 
-            где бесчинствуют банды, закупайтесь в многолюдном центре города и одалживайте у корпораций. <br>
-            ● Заключайте сделки с подозрительными фиксерами, отчаявшимися знаменитостями 
-            и беглыми искинами — чтобы добиться успеха в Найт-Сити, все средства хороши.
-
-          </p> 
-          </div>
-          </div>
-    </div>
-  </div>
-    <div class="box">
-      <div class="hero__container container hero__container--1">
-        <div class="hero__text text hero__text--1">
-          <div class="element-animation-text">
-          <h2>Станьте легендой</h2>
-        </div>
-        <div class="element-animation-1">   
-          <p>
-            ● Сделайте всё, чтобы заполучить самую ценную вещь в Найт-Сити
-             — прототип чипа, который позволит вам жить вечно. <br>
-            ● Выступите против акул преступного мира и самых опасных 
-            людей Найт-Сити, каждый из которых готов завладеть этим чипом.
-            </p>
-          </div>
-        </div>
-        <picture class="hero__image hero__image--1">
-          <source class="img" srcset="assets/images/hero/1-mob.jpg" media="(max-width: 765px)" />
-          <source class="img" srcset="assets/images/hero/1-tab.jpg" media="(max-width: 1020px)" />
-          <source class="img" srcset="assets/images/hero/1-lap.jpg" media="(max-width: 1550px)" />
-          <img class="img" src="assets/images/hero/1.jpg" alt="photo" />
-        </picture>
-      </div>
-    </div>
-    <div class="box">
-      <div class="hero__container container hero__container--2">
-        <div class="hero__text text hero__text--2">
-          <div class="element-animation-text">
-          <h2>Полное погружение вместе с 
-            <img class="logo-fs" src="assets/images/header/hp.svg" alt="hp">
-          </h2>
-        </div>
-        <div class="element-animation-1">
-          <p>
-            ● Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора
-            с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов.
-            Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц! <br>
-          </p>
-        </div>
-          <div class="element-animation-text">            
-            <h2>Новости
-              <img class="logo-fs" src="assets/images/header/news.svg" alt="news">
-            </h2>
-          </div>
-          <div class="element-animation-1">
-            <a class="link-fs-1" target="_blank" href="https://www.cyberpunk.net/ru/news/41546/cyberpunk-2077-besplatnaia-probnaia-versiia-dlia-novogo-pokoleniia">
-              ● Cyberpunk 2077 — Бесплатная пробная версия для нового поколения. 
-            </a> 
-            <br>
-            <a class="link-fs-1" target="_blank" href="https://www.cyberpunk.net/ru/news/41873/khotfiks-dlia-pk">
-              ● Хотфикс для ПК. 
-            </a>
-            <br>
-            <a class="link-fs-1" target="_blank" href="https://www.cyberpunk.net/ru/news/41450/patch-1-5-versiia-dlia-konsolei-novogo-pokoleniia-spisok-izmenenii">
-              ● Патч 1.5 & обновление для консолей нового поколения — список изменений.
-            </a>
-            <br>
-            <a class="link-fs-1" target="_blank" href="https://www.cyberpunk.net/ru/news/41531/cyberpunk-2077-treiler-k-vykhodu-next-gen">
-              ● Cyberpunk 2077 — трейлер к выходу версии для консолей нового поколения. 
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="box">
-      <div class="hero__container container hero__container--1">
-        <picture class="hero__image hero__image--2">
-          <source class="img" srcset="assets/images/hero/3-mob.jpg" media="(max-width: 765px)" />
-          <source class="img" srcset="assets/images/hero/3-tab.jpg" media="(max-width: 1020px)" />
-          <source class="img" srcset="assets/images/hero/3-lap.jpg" media="(max-width: 1550px)" />
-          <img class="img" src="assets/images/hero/3.jpg" alt="photo" />
-        </picture>
-        <div class="hero__text text hero__text--3">
-          <div class="element-animation-text-1">
-          <h2>Купить игру Cyberpunk 2077:</h2>
-        </div>
-        <div class="element-animation-1">
-              <a class="link-fs" target="_blank" href="https://www.cyberpunk.net/ru/ru/buy">
-                <img class="logo-fs" src="assets/images/header/Cyberpunk.svg" alt="логотип"> 
-                От создателей
-                </a><br>
-              <a class="link-fs" target="_blank" href="https://store.steampowered.com/app/1091500/Cyberpunk_2077">
-                <img class="logo-fs" src="assets/images/header/steam.svg" alt="логотип"> 
-                Steam
-                </a><br>
-              <a class="link-fs" target="_blank" href="https://store.epicgames.com/ru/p/cyberpunk-2077">
-                <img class="logo-fs" src="assets/images/header/epic-games.svg" alt="логотип"> 
-                Epic Games
-              </a><br>
-          </div>
-        </div>
+  <section class="hero download">
+    <div class="container">
+      <h1 class="main-title">
+        FlipStar
+      </h1>
+      <h2 class="subtitle first">
+        Cсылки для загрузки:
+      </h2>
+      <div class="wrapper last">
+        <a class="link" target="_blank" href="downloads/Мияги сборка старая.rar" download > 
+          Fix сборка MiyaGi (Пароль: 1234)
+        </a>
+        <a class="link" target="_blank" href="https://disk.yandex.ru/d/9KO2ANCDanbPUw"  >
+          Новая фиолетовая сборка MiyaGi (Парль:1234)
+        </a>
+        <a class="link" target="_blank" href=""  >
+          Новая синяя сборка MiyaGi (скоро)
+        </a>
+        <a class="link" target="_blank" href="" >
+          Специально для Stas_Blizz (delet)
+        </a>
+              
       </div>
     </div>
   </section>
-  <footer class="footer">
-    <div class="element-animation-2">
-    <a class="footer__link link" target="_blank" href="https://fl1pstar.github.io/FlipStar/index.html">
-      © FlipStar
-    </a>
-  </div>
-  </footer>
 </body>
 
 </html>
